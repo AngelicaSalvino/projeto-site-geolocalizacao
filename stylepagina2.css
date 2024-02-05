@@ -3,9 +3,7 @@
   margin: 0;
   padding: 0;
 }
-
 nav {
-  /*border: 10px solid red;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +35,13 @@ main {
 
 .cadastro {
   background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.caixa-endereco {
+  align-items: center;
+  font-weight: bold;
 }
 
 h1 {
@@ -57,7 +62,7 @@ h1 {
 }
 
 form {
-  width: 100%;
+  width: 50%;
   box-sizing: border-box;
 }
 
@@ -127,7 +132,6 @@ footer {
   border-radius: 50%;
 }
 
-/*estilização do form*/
 .required-popup::after {
   content: "*Campo obrigatório";
   position: inherit;
